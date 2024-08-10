@@ -5,6 +5,23 @@ Before training the model, prepare your dataset. This involves selecting the fea
 - **Features**: These are the input variables used to predict the target. For example, columns like `PAQ605`, `BMXBMI`, `LBXGLU`, `LBXGLT`, and `LBXIN` might be used as features.
 - **Target Variable**: This is the output variable you want to predict. In binary classification, it could be something like `age_group`, where the goal is to classify each instance into one of two classes (e.g., 0 or 1).
 
+#### Features Description
+1. **PAQ605**: **Physical Activity Questionnaire 605**
+   - This feature typically represents data collected from a questionnaire about physical activity.
+
+2. **BMXBMI**: **Body Mass Index from the Biomarker Examination**
+   - This feature represents the Body Mass Index (BMI) calculated from biomarker data, which is a measure of body fat based on height and weight.
+
+3. **LBXGLU**: **Lab Blood Glucose Level**
+   - This feature represents the level of glucose in the blood, measured in a laboratory setting.
+
+4. **LBXGLT**: **Lab Blood Glucose Test**
+   - This feature represents a test related to blood glucose levels, typically indicating whether a certain threshold has been crossed or a specific test result.
+
+5. **LBXIN**: **Lab Insulin Level**
+   - This feature represents the level of insulin in the blood, measured in a laboratory setting.
+
+These full forms are based on common usage and interpretation of such features in medical and health datasets. If the dataset you are using has different definitions or specifics, make sure to refer to the dataset documentation for accurate descriptions.
 ## 2.Train-Test Split
 Split the dataset into two parts: training and testing sets. The training set is used to build the model, while the testing set is used to evaluate its performance. This helps to ensure that the model is tested on unseen data to assess its generalization ability.
 
