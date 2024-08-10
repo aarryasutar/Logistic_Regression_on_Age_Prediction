@@ -31,7 +31,7 @@ Store the performance metrics for each feature or model variant in a structured 
 Determine which feature or model variant provides the best performance. This is usually done by comparing accuracy or another primary metric across different features. The feature with the highest accuracy is considered the best.
 
 ## ROC-AUC Curve: Purpose and Interpretation
-#### 1.Purpose of Printing ROC-AUC Curve:**
+#### 1.Purpose of Printing ROC-AUC Curve:
 - **Model Evaluation**: The ROC-AUC curve is used to evaluate the performance of a classification model. It provides insight into how well the model distinguishes between positive and negative classes.
 - **Comparison of Models**: It allows for the comparison of different models or features by visualizing their ability to classify correctly across different thresholds.
 - **Threshold Independence**: Unlike accuracy, which depends on a specific threshold (usually 0.5 for binary classification), the ROC-AUC curve evaluates the model's performance across all possible thresholds.
